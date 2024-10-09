@@ -1,7 +1,6 @@
 let year = parseInt(prompt("Quelle année?"));
 let month = parseInt(prompt("Quel mois?"));
 let day = parseInt(prompt("Quel jour?"));
-let isValid = false;
 let maxDays = 31;
 
 if (month === 4 || month === 6 || month === 9 || month === 11) {
