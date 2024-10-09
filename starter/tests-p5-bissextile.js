@@ -22,4 +22,9 @@ AUTREMENT DIT :
 N'oubliez pas de tester votre programme avec différentes années pour vérifier qu'il fonctionne correctement.
 */
 
-const year = prompt("En quelle année sommes nous?")
+let isBissextile = false;
+const year = 2024;
+if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+    isBissextile = true;
+    console.log(`${year} est une année bissextile`);
+}
