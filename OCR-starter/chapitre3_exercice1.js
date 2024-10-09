@@ -17,3 +17,20 @@
 // Exemple : si le jour actuel est "mardi", le programme devrait afficher "Demain, nous serons mercredi."
 
 // N'oubliez pas de tester votre programme avec divers jours de la semaine.
+
+const Ajd = "jeudi";
+if (Ajd === "lundi") {
+    console.log("Demain nous serons mardi");
+} else if (Ajd === "mardi") {
+    console.log("Demain nous serons mercredi");
+} else if (Ajd === "mercredi") {
+    console.log("Demain nous serons jeudi");
+} else if (Ajd === "jeudi") {
+    console.log("Demain nous serons vendredi");
+} else if (Ajd === "vendredi") {
+    console.log("Demain nous serons samedi");
+} else if (Ajd === "samedi") {
+    console.log("Demain nous serons dimanche");
+} else if (Ajd === "lundi") {
+    console.log("Demain nous serons lundi");
+}

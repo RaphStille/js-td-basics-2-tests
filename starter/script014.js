@@ -6,19 +6,29 @@
 // L'instruction ne s'exécutera que si une certaine condition est remplie (c.-à-d. vraie)
 
 // 1. Exprimez une condition : IF
-
 // 1. Écrivez un test dont la condition est true
 // 2. Dans le bloc, affichez "Je suis dans un bloc d'instructions soumis à une condition qui est toujours vraie, je vais donc toujours m'afficher"
-
+if (3>2) {
+    console.log("Je suis dans un bloc d'instructions soumis à une condition qui est toujours vraie, je vais donc toujours m'afficher")
+}
 // Et l'inverse :
 // 1. Écrivez un test dont la condition est false
 // 2. Dans le bloc, affichez "Bon, je cause toujours, mais vu que je suis dans un bloc d'instructions soumis à une condition qui est toujours fausse, ce que je dis ne va jamais s'afficher"
-
+if (2>3) {
+    console.log("Bon, je cause toujours, mais vu que je suis dans un bloc d'instructions soumis à une condition qui est toujours fausse, ce que je dis ne va jamais s'afficher")
+}
 // 1. Demandez à l'utilisateur d'entrer un nombre et enregistrez ce nombre (ATTENTION, prenez bien soin qu'il s'agisse bien d'un nombre et pas d'une chaîne de caractères !) dans une constante nombre
 // 2. Si ce nombre est positif (et seulement dans ce cas), affichez "… est positif"
 
+// const number = (prompt("Entrez un nombre"))
+// if (number >= 0) {
+//     console.log(`${number} est positif`);
+// }
 // Écrivez un programme qui dit "Bonjour" à l'utilisateur et n'accepte de lui répondre que si celui-ci lui dit "Bonjour" à son tour. Dans ce cas, le programme lui répond "Toi, tu es poli, tu me dis bonjour, je veux bien te parler… Comment t'appelles-tu ?". Il enregistre alors l'entrée dans une variable nom et, seulement si l'utilisateur a bien entré quelque chose dans le champ (il prend la peine de vérifier avant), il lui répond (dans la console), "Je t'aime bien, …".
-
+const bonjour = prompt("Bonjour")
+if (bonjour === "bonjour" || bonjour === "Bonjour") {
+    const nom = prompt("Toi, tu es poli, tu me dis bonjour, je veux bien te parler… Comment t'appelles-tu ?");
+}
 // 2. Exprimez une alternative : if / else
 
 // 1. Demandez à l'utilisateur d'entrer un nombre et enregistrez ce nombre dans une constante nombre

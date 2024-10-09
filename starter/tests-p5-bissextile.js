@@ -21,3 +21,5 @@ AUTREMENT DIT :
 
 N'oubliez pas de tester votre programme avec différentes années pour vérifier qu'il fonctionne correctement.
 */
+
+const year = prompt("En quelle année sommes nous?")
